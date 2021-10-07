@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10535,81H10535A</appcode>
+        <actions>
+          	<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardjiedaiapplyHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypagejiedaiapplyHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkjiedaiapplyHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.savejiedaiapplyHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deletejiedaiapplyHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitjiedaiapplyHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitjiedaiapplyHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

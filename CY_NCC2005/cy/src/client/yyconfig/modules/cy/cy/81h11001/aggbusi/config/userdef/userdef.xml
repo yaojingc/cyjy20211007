@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userdefs>
+        <userdef>
+                <name>cy.callcenterHVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.callcenterDetailVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+</userdefs>

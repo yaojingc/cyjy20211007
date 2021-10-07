@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiCommonResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiStuInfoResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiContractInfo" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiInvoiceResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiMsgIOResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.miniprogram.CyminiChartQueryResource" exinfo=""/>
+	</rest>	
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyCourseResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyClassResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyCommonResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CySchoolBasicResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CySchoolBasicResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CySchoolFormResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyBlueInvoiceResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyTeacherResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyWorkplanResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyDailyResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyBasisFilesResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyYejiapplyResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyXuefeiapplyResource" exinfo=""/>
+	</rest>	
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyTaskallocationResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyJiedaiResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyStudentResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyTaskfeedbackResource" exinfo=""/>
+	</rest>
+	<rest>
+		<resource classname="nc.api.cy.rest.itf.CyPlantravelResource" exinfo=""/>
+	</rest>
+</module>

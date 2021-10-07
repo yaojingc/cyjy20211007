@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.SchoolAllout</name>
+		<label>学校分配</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolAlloutAction
+		</clazz>
+	</action>
+
+
+
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.saveschoolBasicsHVO</name>
+		<label>保存</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOSaveAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.deleteschoolBasicsHVO</name>
+		<label>删除</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVODeleteAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypageschoolBasicsHVO</name>
+		<label>列表查询</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOQueryListAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypagebypkschoolBasicsHVO</name>
+		<label>分页查询</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOQueryByPksAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querycardschoolBasicsHVO</name>
+		<label>卡片查询</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOQueryCardAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.commitschoolBasicsHVO</name>
+		<label>提交单据</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOCommitAssignAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.uncommitschoolBasicsHVO</name>
+		<label>收回单据</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolBasicsHVOUnCommitAssignAction
+		</clazz>
+	</action>
+
+</actions>

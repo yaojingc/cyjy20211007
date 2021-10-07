@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H10505,81H10505A</appcode>
+		<actions>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+			<!-- 学生参照 -->
+			<action>cy.cy.StudentGridReferQuery</action>
+			<!-- 老师讲师分配 -->
+			<action>cy.cy.teacherAssign</action>
+			<!-- 老师讲师取消分配 -->
+			<action>cy.cy.cancelTeacherAssign</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardteacherformHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageteacherformHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkteacherformHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveteacherformHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteteacherformHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.committeacherformHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitteacherformHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

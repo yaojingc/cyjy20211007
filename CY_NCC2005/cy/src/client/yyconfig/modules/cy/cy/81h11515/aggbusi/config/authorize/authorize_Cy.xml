@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H11515,81H11515A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardreturncostHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypagereturncostHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkreturncostHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.savereturncostHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deletereturncostHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitreturncostHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitreturncostHVO</action>
+            <!-- 是否能设置退费金额 -->
+            <action>cy.cy.checKManIsEditReturnMoney</action>
+            <!-- 设置退费金额 -->
+            <action>cy.cy.setReturnMoney</action>
+            <!-- 通过学生找到对应的收款信息数据 -->
+            <action>cy.cy.queryContractByStu</action>
+        </actions>
+    </authorize>
+</authorizes>

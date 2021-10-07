@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-13 09:59:00"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-13 09:59:00"
+},
+{
+"dr": "0",
+"menuitemcode": "81H105",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-08-13 09:59:00"
+},
+  {
+    "appcode": "81H10545",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "业绩申请单",
+    "menuitemcode": "81H10545",
+    "menuitemname": "业绩申请单",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-13 09:59:00"
+},
+{
+    "appcode": "81H10545A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "业绩申请单",
+    "menuitemcode": "81H10545A",
+    "menuitemname": "业绩申请单审批",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-13 09:59:00"
+}
+]

@@ -1,0 +1,168 @@
+INSERT INTO pub_bcr_nbcr (
+        pk_nbcr,
+        code,
+        codelenth,
+        codescope,
+        codestyle,
+        comp,
+        dr,
+        metaid,
+        name,
+        orgtype,
+        ts
+)
+VALUES
+        (
+                '0001ZZZZ780E8042BE6C',
+                'XSZN',
+                40,
+                'global',
+                'after',
+                NULL,
+                0,
+                '01675523-fa49-4965-b69a-d3f780ea7541',
+                '新手指南',
+                'GLOBLE00000000000000',
+                '2021-07-19 13:52:07'
+        );
+
+go
+
+INSERT INTO pub_bcr_rulebase (
+        pk_billcodebase,
+        codemode,
+        codescope,
+        dataoriginflag,
+        dr,
+        format,
+        isautofill,
+        isdefault,
+        iseditable,
+        isgetpk,
+        islenvar,
+        isused,
+        nbcrcode,
+        pk_group,
+        rulecode,
+        rulename,
+        ts
+)
+VALUES
+        (
+                '0001ZZZZ4D14A767BD8C',
+                'after',
+                'g',
+                0,
+                0,
+                'yyyyMMdd',
+                'Y',
+                'N',
+                'N',
+                'N',
+                'Y',
+                'Y',
+                'XSZN',
+                'GLOBLE00000000000000',
+                'XSZN',
+                '新手指南',
+                '2021-07-19 13:52:07'
+        );
+
+go
+
+INSERT INTO pub_bcr_elem (
+        pk_billcodeelem,
+        dataoriginflag,
+        dr,
+        elemlenth,
+        elemtype,
+        elemvalue,
+        eorder,
+        fillsign,
+        fillstyle,
+        isrefer,
+        pk_billcodebase,
+        pk_billcodeentity,
+        ts
+)
+VALUES
+        (
+                '0001ZZZZ0C982DF184D1',
+                NULL,
+                0,
+                4,
+                0,
+                'XSZN',
+                0,
+                NULL,
+                0,
+                0,
+                '0001ZZZZ4D14A767BD8C',
+                '~',
+                '2021-07-19 13:52:07'
+        );
+go
+INSERT INTO pub_bcr_elem (
+        pk_billcodeelem,
+        dataoriginflag,
+        dr,
+        elemlenth,
+        elemtype,
+        elemvalue,
+        eorder,
+        fillsign,
+        fillstyle,
+        isrefer,
+        pk_billcodebase,
+        pk_billcodeentity,
+        ts
+)
+VALUES
+        (
+                '0001ZZZZ01C3AEF26574',
+                NULL,
+                0,
+                8,
+                2,
+                'billdate',
+                1,
+                NULL,
+                0,
+                0,
+                '0001ZZZZ4D14A767BD8C',
+                '~',
+                '2021-07-19 13:52:07'
+        );
+go
+INSERT INTO pub_bcr_elem (
+        pk_billcodeelem,
+        dataoriginflag,
+        dr,
+        elemlenth,
+        elemtype,
+        elemvalue,
+        eorder,
+        fillsign,
+        fillstyle,
+        isrefer,
+        pk_billcodebase,
+        pk_billcodeentity,
+        ts
+)
+VALUES
+        (
+                '0001ZZZZ2370BF3C5CE3',
+                NULL,
+                0,
+                8,
+                3,
+                'nc.pub.billcode.BillCodePureDigitalSNGenerator',
+                2,
+                NULL,
+                0,
+                0,
+                '0001ZZZZ4D14A767BD8C',
+                '~',
+                '2021-07-19 13:52:07'
+        );
+go

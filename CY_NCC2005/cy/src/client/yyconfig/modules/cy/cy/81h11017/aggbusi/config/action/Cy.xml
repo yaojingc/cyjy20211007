@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.saveguideHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteguideHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageguideHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkguideHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardguideHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitguideHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitguideHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.guidehvo.action.GuideHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

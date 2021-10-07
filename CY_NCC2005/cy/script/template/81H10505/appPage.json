@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H10505_LIST",
+    "pagename": "老师申请单列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10505/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10505",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H10505_LIST,
+    "ts": "2021-07-06 09:14:25"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H10505_CARD",
+    "pagename": "老师申请单卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10505/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10505",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H10505_CARD,
+    "ts": "2021-07-06 09:14:25"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H10505L_CARD",
+"pagename": "老师申请单联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h10505/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H10505",
+"pk_apppage": "PK_PG03",
+"resid": 81H10505_CARD,
+"ts": "2021-07-06 09:14:25"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H10505A_CARD",
+"pagename": "老师申请单审批",
+"pageurl": "/nccloud/resources/cy/cy/81h10505/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H10505A",
+"pk_apppage": "PK_PG04",
+"resid": 81H10505A_CARD,
+"ts": "2021-07-06 09:14:25"
+}
+]

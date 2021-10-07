@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-07-29 23:30:35"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-07-29 23:30:35"
+},
+{
+"dr": "0",
+"menuitemcode": "81H105",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-07-29 23:30:35"
+},
+  {
+    "appcode": "81H10549",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "拜访计划",
+    "menuitemcode": "81H10549",
+    "menuitemname": "拜访计划",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-07-29 23:30:35"
+},
+{
+    "appcode": "81H10549A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "拜访计划",
+    "menuitemcode": "81H10549A",
+    "menuitemname": "拜访计划审批",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-07-29 23:30:35"
+}
+]

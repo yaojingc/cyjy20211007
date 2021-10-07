@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.saveplantravelHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteplantravelHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageplantravelHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkplantravelHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardplantravelHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitplantravelHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitplantravelHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.plantravelhvo.action.PlantravelHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

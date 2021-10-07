@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9F9F9;}
+	.st1{fill:url(#Fill-4_2_);}
+</style>
+<title>默认磁贴类2</title>
+<desc>Created with Sketch.</desc>
+<g id="默认磁贴类2">
+	<g id="Page-1-Copy-2" transform="translate(-268.000000, -175.000000)">
+	</g>
+	<g id="Group" transform="translate(5.000000, 5.000000)">
+		<path class="st0" d="M76.7,11L42.8,0.3c-1.4-0.4-2.9-0.4-4.3,0L4.7,11c-1.1,0.3-2.1,0.9-2.9,1.7l38,15.7c0.5,0.2,1.2,0.2,1.8,0
+			l35.4-15v-2.3C76.9,11,76.8,11,76.7,11z"/>
+		<path class="st0" d="M44.5,32.3c-0.1,0-0.2,0.1-0.3,0.1V77h13.4L77,69.8V18.6L44.5,32.3z"/>
+		<path class="st0" d="M37.5,32L0.1,16.6C0,16.9,0,17.2,0,17.5v50.4L24.4,77h13.3V32.1C37.7,32.1,37.6,32.1,37.5,32z"/>
+		
+			<linearGradient id="Fill-4_2_" gradientUnits="userSpaceOnUse" x1="-451.05" y1="525.5115" x2="-451.05" y2="524.55" gradientTransform="matrix(40 0 0 -40 18078 21039)">
+			<stop  offset="0" style="stop-color:#838C97"/>
+			<stop  offset="1" style="stop-color:#C2C9D2"/>
+		</linearGradient>
+		<path id="Fill-4_1_" class="st1" d="M36.4,30.5c-0.3,0.1-0.6,0.1-0.9,0L17.1,23c0.4-0.4,0.9-0.6,1.4-0.8l16.5-5
+			c0.7-0.2,1.4-0.2,2.1,0l16.5,5c0.5,0.1,0.9,0.4,1.3,0.7L36.4,30.5z M34.7,32.6c0,0,0.1,0,0.1,0V57L16,50.1V25.5c0-0.1,0-0.3,0-0.4
+			L34.7,32.6z M37.2,32.6c0,0,0.1,0,0.2,0l18.6-7.7c0,0.2,0.1,0.4,0.1,0.6v24.6L37.2,57V32.6z"/>
+	</g>
+</g>
+</svg>

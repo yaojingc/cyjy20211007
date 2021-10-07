@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H10501_LIST",
+    "pagename": "新发现学校申请单列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10501/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10501",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H10501_LIST,
+    "ts": "2021-06-23 14:36:45"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H10501_CARD",
+    "pagename": "新发现学校申请单卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10501/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10501",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H10501_CARD,
+    "ts": "2021-06-23 14:36:45"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H10501L_CARD",
+"pagename": "新发现学校申请单联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h10501/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H10501",
+"pk_apppage": "PK_PG03",
+"resid": 81H10501_CARD,
+"ts": "2021-06-23 14:36:45"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H10501A_CARD",
+"pagename": "新发现学校申请单审批",
+"pageurl": "/nccloud/resources/cy/cy/81h10501/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H10501A",
+"pk_apppage": "PK_PG04",
+"resid": 81H10501A_CARD,
+"ts": "2021-06-23 14:36:45"
+}
+]

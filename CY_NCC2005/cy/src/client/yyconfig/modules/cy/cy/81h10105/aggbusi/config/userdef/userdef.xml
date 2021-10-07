@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userdefs>
+        <userdef>
+                <name>cy.studentHVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.studentChangeVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.studentGradeVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.studentParentVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+</userdefs>

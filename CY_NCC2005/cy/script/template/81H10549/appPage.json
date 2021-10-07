@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H10549_LIST",
+    "pagename": "拜访计划列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10549/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10549",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H10549_LIST,
+    "ts": "2021-07-29 23:30:35"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H10549_CARD",
+    "pagename": "拜访计划卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10549/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10549",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H10549_CARD,
+    "ts": "2021-07-29 23:30:35"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H10549L_CARD",
+"pagename": "拜访计划联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h10549/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H10549",
+"pk_apppage": "PK_PG03",
+"resid": 81H10549_CARD,
+"ts": "2021-07-29 23:30:35"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H10549A_CARD",
+"pagename": "拜访计划审批",
+"pageurl": "/nccloud/resources/cy/cy/81h10549/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H10549A",
+"pk_apppage": "PK_PG04",
+"resid": 81H10549A_CARD,
+"ts": "2021-07-29 23:30:35"
+}
+]

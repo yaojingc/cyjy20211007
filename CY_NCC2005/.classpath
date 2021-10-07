@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="arap/classes" path="arap/src/public"/>
+	<classpathentry kind="src" output="arap/classes" path="arap/src/client"/>
+	<classpathentry kind="src" output="arap/classes" path="arap/src/private"/>
+	<classpathentry kind="src" output="arap/classes" path="arap/src/test"/>
+	<classpathentry kind="src" output="arap/classes" path="arap/resources"/>
+	<classpathentry kind="src" output="uapbd/classes" path="uapbd/src/public"/>
+	<classpathentry kind="src" output="uapbd/classes" path="uapbd/src/client"/>
+	<classpathentry kind="src" output="uapbd/classes" path="uapbd/src/private"/>
+	<classpathentry kind="src" output="uapbd/classes" path="uapbd/src/test"/>
+	<classpathentry kind="src" output="uapbd/classes" path="uapbd/resources"/>
+	<classpathentry kind="src" output="uapfw/classes" path="uapfw/src/public"/>
+	<classpathentry kind="src" output="uapfw/classes" path="uapfw/src/client"/>
+	<classpathentry kind="src" output="uapfw/classes" path="uapfw/resources"/>
+	<classpathentry kind="src" output="cy/classes" path="cy/src/public"/>
+	<classpathentry kind="src" output="cy/classes" path="cy/src/client"/>
+	<classpathentry kind="src" output="cy/classes" path="cy/src/private"/>
+	<classpathentry kind="src" output="cy/classes" path="cy/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/okhttp-2.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/tencentcloud-sdk-java-3.1.322.jar"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Ant_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Product_Common_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Middleware_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Framework_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Module_Public_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Module_Client_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Module_Private_Library">
+		<accessrules>
+			<accessrule kind="accessible" pattern="**/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Module_Lang_Library"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/Generated_EJB"/>
+	<classpathentry kind="con" path="com.yonyou.studio.udt.core.container/NCCloud_Library"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

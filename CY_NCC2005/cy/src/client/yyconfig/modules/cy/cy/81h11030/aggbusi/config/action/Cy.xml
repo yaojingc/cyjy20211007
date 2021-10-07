@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+
+	<action>
+		<name>cy.cy.querystuclatree</name>
+		<label>上课学生维护弹框查询数据初始化</label>
+		<clazz>
+			nccloud.cy.cy.clsschedulehvo.action.QueryStuClaTreeAction
+		</clazz>
+	</action>
+
+	<action>
+		<name>cy.cy.savestuclatree</name>
+		<label>上课学生维护弹框数据保存</label>
+		<clazz>
+			nccloud.cy.cy.clsschedulehvo.action.StuClaTreeSaveAction
+		</clazz>
+	</action>
+
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.ClassCyGridReferQuery</name>
+		<label>班级参照</label>
+		<clazz>nccloud.cy.cy.classcyhvo.action.ClassCyGridReferQueryAction
+		</clazz>
+	</action>
+
+	<action>
+		<name>cy.cy.clasituation</name>
+		<label>生成学生上课情况</label>
+		<clazz>
+			nccloud.cy.cy.clsschedulehvo.action.CreatClaSituationAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.importkb</name>
+		<label>课表导入</label>
+		<clazz>
+			nccloud.cy.cy.clsschedulehvo.action.ImportKBexcel
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.saveclsscheduleHVO</name>
+		<label>保存</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOSaveAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.deleteclsscheduleHVO</name>
+		<label>删除</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVODeleteAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypageclsscheduleHVO</name>
+		<label>列表查询</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOQueryListAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypagebypkclsscheduleHVO</name>
+		<label>分页查询</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOQueryByPksAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querycardclsscheduleHVO</name>
+		<label>卡片查询</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOQueryCardAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.commitclsscheduleHVO</name>
+		<label>提交单据</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOCommitAssignAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.uncommitclsscheduleHVO</name>
+		<label>收回单据</label>
+		<clazz>nccloud.cy.cy.clsschedulehvo.action.ClsscheduleHVOUnCommitAssignAction
+		</clazz>
+	</action>
+
+</actions>

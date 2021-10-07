@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction
+		</clazz>
+	</action>
+    <action>
+        <name>cy.cy.saveworkplanHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteworkplanHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageworkplanHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkworkplanHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardworkplanHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitworkplanHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitworkplanHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.workplanhvo.action.WorkplanHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

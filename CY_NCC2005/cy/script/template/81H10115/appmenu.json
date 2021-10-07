@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-06-23 09:36:36"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-06-23 09:36:36"
+},
+{
+"dr": "0",
+"menuitemcode": "81H101",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-06-23 09:36:36"
+},
+  {
+    "appcode": "81H10115",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "词源班级档案",
+    "menuitemcode": "81H10115",
+    "menuitemname": "词源班级档案",
+    "parentcode": "81H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-06-23 09:36:36"
+},
+{
+    "appcode": "81H10115A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "词源班级档案",
+    "menuitemcode": "81H10115A",
+    "menuitemname": "词源班级档案审批",
+    "parentcode": "81H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-06-23 09:36:36"
+}
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H10101_LIST",
+    "pagename": "学校档案列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10101/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10101",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H10101_LIST,
+    "ts": "2021-07-02 14:38:31"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H10101_CARD",
+    "pagename": "学校档案卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10101/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10101",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H10101_CARD,
+    "ts": "2021-07-02 14:38:31"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H10101L_CARD",
+"pagename": "学校档案联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h10101/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H10101",
+"pk_apppage": "PK_PG03",
+"resid": 81H10101_CARD,
+"ts": "2021-07-02 14:38:31"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H10101A_CARD",
+"pagename": "学校档案审批",
+"pageurl": "/nccloud/resources/cy/cy/81h10101/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H10101A",
+"pk_apppage": "PK_PG04",
+"resid": 81H10101A_CARD,
+"ts": "2021-07-02 14:38:31"
+}
+]

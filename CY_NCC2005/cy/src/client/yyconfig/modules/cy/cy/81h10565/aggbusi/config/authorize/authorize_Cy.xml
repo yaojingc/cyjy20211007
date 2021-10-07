@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10565,81H10565A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardplantravelHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypageplantravelHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkplantravelHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.saveplantravelHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deleteplantravelHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitplantravelHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitplantravelHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

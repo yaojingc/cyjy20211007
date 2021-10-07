@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H10101,81H10101A</appcode>
+		<actions>
+			<!-- 学校分配 -->
+			<action>cy.cy.SchoolAllout</action>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardschoolBasicsHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageschoolBasicsHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkschoolBasicsHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveschoolBasicsHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteschoolBasicsHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitschoolBasicsHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitschoolBasicsHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

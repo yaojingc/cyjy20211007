@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="full-screen" content="true">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="viewport" content="width=375, user-scalable=no, minimal-ui">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/nccloud/resources/workbench/public/common/main/assets/css/normalize.css">
+    <link rel="stylesheet" href="/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front.css">
+    <script src="/nccloud/resources/platform/yonyou-yyy.js"></script>
+    <title>NC Cloud Workbench</title>
+<link rel="shortcut icon" href="favicon.ico"></head>
+
+<body id="workbench" class="workbench-default">
+    <div id="app"></div>
+    <script src="/nccloud/resources/platform/polyfill.js"></script>
+    <script src="/nccloud/resources/platform/react.js"></script>
+    <script src="/nccloud/resources/platform/react-dom.js"></script>
+    <script src="/nccloud/resources/workbench/public/common/main/assets/js/echarts/echarts.min.js"></script>
+    <script src="/nccloud/resources/platform/axios.js"></script>
+    <script src="/nccloud/resources/platform/ca/ca0.js"></script>
+    <script src="/nccloud/resources/platform/ca/ca1.js"></script>
+    <script src="/nccloud/resources/platform/ca/ca2.js "></script>
+    <script src="/nccloud/resources/platform/ca/nccsign.js "></script>
+    <script src="/nccloud/resources/platform/ca/sha256.js "></script>
+    <script>
+        // 按需加载相关js
+        (function () {
+            window.themeURL = [
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-default.css",
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-red.css",
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-blue.css",
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-green.css",
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-yellow.css",
+                "/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front-black.css"
+            ];
+            var pageHash = window.location.hash.split("?")[0].split('#/')[1];
+            if (pageHash == 'ifr') {
+                // document.body.appendChild(script)是异步加载script
+                // 直接创建sciprt标签是同步加载script
+                // 分开script，防止html认为是闭合标签
+                document.write('<scr' + 'ipt type="text/javascript" src="/nccloud/resources/platform/nc-lightapp-front/platform-workbench.js"></scr' + 'ipt>');
+            } else {
+                document.write('<scr' + 'ipt type="text/javascript" src="/nccloud/resources/platform/nc-lightapp-front/nc-lightapp-front.js"></scr' + 'ipt>');
+            }
+        })()
+    </script>
+<script type="text/javascript" src="commons.253718b7.js"></script><script type="text/javascript" src="main.d9ebcdcf.js"></script></body>
+
+</html>

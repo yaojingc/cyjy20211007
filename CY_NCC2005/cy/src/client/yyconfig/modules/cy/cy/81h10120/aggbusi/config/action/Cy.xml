@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction
+		</clazz>
+	</action>
+    <action>
+        <name>cy.cy.saveclassxzHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteclassxzHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageclassxzHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkclassxzHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardclassxzHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitclassxzHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitclassxzHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.classxzhvo.action.ClassxzHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

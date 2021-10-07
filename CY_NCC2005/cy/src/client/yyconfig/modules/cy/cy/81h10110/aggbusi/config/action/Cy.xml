@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.saveteacherfileHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteteacherfileHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageteacherfileHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkteacherfileHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardteacherfileHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.committeacherfileHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitteacherfileHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.teacherfilehvo.action.TeacherfileHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

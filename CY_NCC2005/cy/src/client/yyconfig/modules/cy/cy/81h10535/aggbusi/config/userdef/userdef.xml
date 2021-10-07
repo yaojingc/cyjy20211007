@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userdefs>
+        <userdef>
+                <name>cy.jiedaiapplyHVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.jiedaiapplyvisitVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.jiedaiapplyschVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.jiedaiapplykcVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+</userdefs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userdefs>
+        <userdef>
+                <name>cy.teacherfileHVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>cy.teacherfileDetailVO</name>
+                <prefix>vdef</prefix>
+        </userdef>
+</userdefs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><component conRouterType="手动" createIndustry="0" createTime="2021-06-22 09:49:38" creator="yonyouBQ" description="" displayName="词源枚举" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="adbdbcfa-1200-403f-9b87-011786f2e743" industry="0" industryChanged="false" industryIncrease="false" industryName="" isSource="false" isbizmodel="false" mainEntity="" metaType=".bmf" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="cyEnum" namespace="cy" ownModule="cy" preLoad="false" programcode="0" resModuleName="cyEnum" resid="" version="8" versionType="0">
+    <celllist>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-06-22 09:49:57" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="学校商务级别枚举" fullClassName="nc.vo.cy.cyenum.BusilevelEnum" height="100" help="" id="18205961-a4f5-492a-a5e6-a1fc54ca8561" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="busilevelEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="152" y="98">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="a" enumDisplay="A" enumID="18205961-a4f5-492a-a5e6-a1fc54ca8561" enumValue="0" hidden="false" id="81948f86-1d6a-49da-b70f-be34ec36fb8b" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="b" enumDisplay="B" enumID="18205961-a4f5-492a-a5e6-a1fc54ca8561" enumValue="1" hidden="false" id="8031b07e-6976-41f3-a15f-4f44f06c2a94" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="c" enumDisplay="C" enumID="18205961-a4f5-492a-a5e6-a1fc54ca8561" enumValue="2" hidden="false" id="5b704e71-bfde-492a-a5de-effd20ba2e2d" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-07-21 09:32:24" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="稳定级别枚举" fullClassName="nc.vo.cy.cyenum.StablelevelEnum" height="100" help="" id="4b12b6dd-58bc-455d-844d-c236c382d2a3" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="stablelevelEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="323" y="101">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="lose" enumDisplay="丢失" enumID="4b12b6dd-58bc-455d-844d-c236c382d2a3" enumValue="0" hidden="false" id="bde1244f-a657-41b2-a5ef-370b16e7bab2" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="stabilize" enumDisplay="稳定" enumID="4b12b6dd-58bc-455d-844d-c236c382d2a3" enumValue="1" hidden="false" id="fe9d1014-7494-41ca-9afd-5f82250bf5e5" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="instability" enumDisplay="不稳定" enumID="4b12b6dd-58bc-455d-844d-c236c382d2a3" enumValue="2" hidden="false" id="7110d9de-1cd8-4c4d-81ff-935e581f4f2f" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-07-21 09:33:54" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="意向度枚举" fullClassName="nc.vo.cy.cyenum.IntedegreeEnum" height="100" help="" id="f7e286f6-6312-47cf-a89b-83b5c5d29c77" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="intedegreeEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="496" y="97">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="high" enumDisplay="高" enumID="f7e286f6-6312-47cf-a89b-83b5c5d29c77" enumValue="0" hidden="false" id="6cc55025-678c-4941-a2c7-1906d9a9daf8" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="higher" enumDisplay="较高" enumID="f7e286f6-6312-47cf-a89b-83b5c5d29c77" enumValue="1" hidden="false" id="c56ad2df-08a6-422b-8255-793d8e1bb02e" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="general" enumDisplay="一般" enumID="f7e286f6-6312-47cf-a89b-83b5c5d29c77" enumValue="2" hidden="false" id="e22d547b-7e20-4753-9d7d-9dd342723c0c" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+                <enumitem createIndustry="0" description="low" enumDisplay="低" enumID="f7e286f6-6312-47cf-a89b-83b5c5d29c77" enumValue="3" hidden="false" id="4305c97b-86bb-42b1-8a66-1226cf779c03" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="3" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-07-22 16:34:21" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="大区枚举" fullClassName="nc.vo.cy.cyenum.AreaEnum" height="100" help="" id="2ec67d82-f02c-44dc-987e-bb423e79b165" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="areaEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="652" y="98">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="east" enumDisplay="东大区" enumID="2ec67d82-f02c-44dc-987e-bb423e79b165" enumValue="0" hidden="false" id="5e803dce-0001-42ae-a664-15f1610e646f" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="south" enumDisplay="南大区" enumID="2ec67d82-f02c-44dc-987e-bb423e79b165" enumValue="1" hidden="false" id="f01a37bb-7e20-4f3d-b891-822faae97e1d" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="west" enumDisplay="西大区" enumID="2ec67d82-f02c-44dc-987e-bb423e79b165" enumValue="2" hidden="false" id="e05651a2-2c83-4e24-8449-414efe15b970" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+                <enumitem createIndustry="0" description="north" enumDisplay="北大区" enumID="2ec67d82-f02c-44dc-987e-bb423e79b165" enumValue="3" hidden="false" id="2fafedb4-b3f1-44d3-af9a-bc9c5cdb7ccc" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="3" versionType="0"/>
+                <enumitem createIndustry="0" description="hubei" enumDisplay="湖北地区" enumID="2ec67d82-f02c-44dc-987e-bb423e79b165" enumValue="4" hidden="false" id="f04c6255-00e9-4a94-8fd9-bf2026a65d04" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="4" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-07-28 14:00:47" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="开发进程" fullClassName="nc.vo.cy.cyenum.DevelProcessEnum" height="100" help="" id="7781cd38-d071-427e-8f7e-8677f03f559f" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="develprocessEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="801" y="98">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="n" enumDisplay="未开发" enumID="7781cd38-d071-427e-8f7e-8677f03f559f" enumValue="0" hidden="false" id="f2a9bbcc-27cd-4b26-8f5f-363618ece805" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="y" enumDisplay="已开发" enumID="7781cd38-d071-427e-8f7e-8677f03f559f" enumValue="1" hidden="false" id="241ef37d-4daf-4b27-bf57-693c00b0418e" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="in" enumDisplay="开发中" enumID="7781cd38-d071-427e-8f7e-8677f03f559f" enumValue="2" hidden="false" id="27445fc4-0028-40ee-9146-ae1dea872f81" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-08-06 17:42:20" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="老师类型枚举" fullClassName="nc.vo.cy.cyenum.TeacherEnum" height="100" help="" id="0e9ec394-0732-440d-b224-c39950a37f7b" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:43:26" name="teacherEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="324" y="274">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="ls" enumDisplay="老师" enumID="0e9ec394-0732-440d-b224-c39950a37f7b" enumValue="0" hidden="false" id="b52f2044-9ad7-4ccf-aaab-f2d3cc77e478" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="js" enumDisplay="讲师" enumID="0e9ec394-0732-440d-b224-c39950a37f7b" enumValue="1" hidden="false" id="f83c765e-d703-41fc-83f6-cd61d915740f" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+        <Enumerate componentID="adbdbcfa-1200-403f-9b87-011786f2e743" createIndustry="0" createTime="2021-08-06 17:44:43" creator="yonyouBQ" dataType="BS000010000100001004" dbtype="int" description="" displayName="师资申请枚举" fullClassName="nc.vo.cy.cyenum.FacultyEnum" height="100" help="" id="5a7f3f47-0d41-4251-98c6-16666e65265f" industryChanged="false" isSource="true" modInfoClassName="" modifier="yonyouBQ" modifyIndustry="0" modifyTime="2021-08-10 10:41:13" name="facultyEnum" resid="" typeDisplayName="Integer" typeName="Integer" versionType="0" visibility="public" width="100" x="551" y="275">
+            <enumitemlist>
+                <enumitem createIndustry="0" description="a" enumDisplay="新学校初次开班" enumID="5a7f3f47-0d41-4251-98c6-16666e65265f" enumValue="0" hidden="false" id="aec40b20-e054-4efb-a909-20ded9907b05" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="0" versionType="0"/>
+                <enumitem createIndustry="0" description="b" enumDisplay="老学校低年级开班" enumID="5a7f3f47-0d41-4251-98c6-16666e65265f" enumValue="1" hidden="false" id="d1212536-8b99-4c35-8d9e-279b6b9afea7" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="1" versionType="0"/>
+                <enumitem createIndustry="0" description="c" enumDisplay="已开班申请增派师资" enumID="5a7f3f47-0d41-4251-98c6-16666e65265f" enumValue="2" hidden="false" id="6ecd7cf2-5034-4eeb-af8d-9be78837ac35" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="2" versionType="0"/>
+                <enumitem createIndustry="0" description="d" enumDisplay="特殊情况增派师资" enumID="5a7f3f47-0d41-4251-98c6-16666e65265f" enumValue="3" hidden="false" id="f4b8da1a-082e-4b70-9af1-82258fb32394" industryChanged="false" isSource="false" modifyIndustry="0" resid="" sequence="3" versionType="0"/>
+            </enumitemlist>
+        </Enumerate>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

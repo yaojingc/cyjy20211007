@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-18 11:38:37"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-18 11:38:37"
+},
+{
+"dr": "0",
+"menuitemcode": "81H110",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-08-18 11:38:37"
+},
+  {
+    "appcode": "81H11035",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "学生上课情况",
+    "menuitemcode": "81H11035",
+    "menuitemname": "学生上课情况",
+    "parentcode": "81H110",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-18 11:38:37"
+},
+{
+    "appcode": "81H11035A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "学生上课情况",
+    "menuitemcode": "81H11035A",
+    "menuitemname": "学生上课情况审批",
+    "parentcode": "81H110",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-18 11:38:37"
+}
+]

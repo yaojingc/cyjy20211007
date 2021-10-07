@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H11515_LIST",
+    "pagename": "退费申请单列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11515/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11515",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H11515_LIST,
+    "ts": "2021-09-09 23:59:25"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H11515_CARD",
+    "pagename": "退费申请单卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11515/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11515",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H11515_CARD,
+    "ts": "2021-09-09 23:59:25"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H11515L_CARD",
+"pagename": "退费申请单联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h11515/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H11515",
+"pk_apppage": "PK_PG03",
+"resid": 81H11515_CARD,
+"ts": "2021-09-09 23:59:25"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H11515A_CARD",
+"pagename": "退费申请单审批",
+"pageurl": "/nccloud/resources/cy/cy/81h11515/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H11515A",
+"pk_apppage": "PK_PG04",
+"resid": 81H11515A_CARD,
+"ts": "2021-09-09 23:59:25"
+}
+]

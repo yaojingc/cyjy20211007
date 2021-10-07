@@ -1,0 +1,14 @@
+{
+    "page-form-0001": "下列字段不能为空",
+    "page-form-0002": "下列字段不合法",
+    "page-form-0003": "最大录入长度为",
+    "page_form_maxlength_unit": "个文字",
+    "page-form-0004": "否",
+    "page-form-0005": "是否确认启用",
+    "page-form-0006": "是否确认停用",
+    "page-form-0007": "是",
+    "page-form-0008": "请输入合法数据",
+    "page-form-0009": "提示",
+    "page-form-0010": "下列字段长度超长",
+    "page-form-0011": "换算率输入格式错误，请检查！正确格式为"
+}

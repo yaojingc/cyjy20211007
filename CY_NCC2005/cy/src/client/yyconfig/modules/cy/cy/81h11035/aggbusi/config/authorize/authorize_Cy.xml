@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H11035,81H11035A</appcode>
+		<actions>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+			<!-- 行政班级 -->
+			<action>cy.cy.ClassXzGridReferQuery</action>
+			<!-- 学生参照 -->
+			<action>cy.cy.StudentGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardclassituationHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageclassituationHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkclassituationHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveclassituationHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteclassituationHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitclassituationHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitclassituationHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

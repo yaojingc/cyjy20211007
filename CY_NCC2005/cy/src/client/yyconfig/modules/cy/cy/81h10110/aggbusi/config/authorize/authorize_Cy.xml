@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10110,81H10110A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardteacherfileHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypageteacherfileHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkteacherfileHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.saveteacherfileHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deleteteacherfileHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.committeacherfileHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitteacherfileHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

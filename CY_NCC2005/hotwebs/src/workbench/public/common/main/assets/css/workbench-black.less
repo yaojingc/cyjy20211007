@@ -1,0 +1,1347 @@
+.workbench-black {
+    @navcolor: #28282a;
+    @navborder: #5f5f7b;
+    @navfont: #a0a1a1;
+    @navlastchild: #ddd;
+    @fonthovercolor: #f1f1f1;
+    @bordercolor: #d0d0d0;
+    @pribtncolor: #fff;
+    @selectedcolor: #d9d9d9;
+    @selectbackcolor: #34343c;
+    @darkbordercolor: #39393f;
+    @darkborder: 1px solid @darkbordercolor !important;
+    @theadcolor: #35353c;
+    @containbackground: #0f1013;
+    @spancolor: #bdbdbd;
+    @redcolor: #e14c46;
+    @inputcolor: #2a2a2f;
+    @titlecolor: #a1a2a2;
+    @backgroundLayoutcolor: #25252a !important;
+    @selectcolor: #888;
+    @forminputcolor: #222226;
+    @backgroundaddcolor: #36373c;
+    @headerbackground: #2b2b30;
+    @inputborder: 1px solid #36363d;
+    @labelcolor: #b0b0b0;
+    @licolor: #a5a5a5;
+    @menucolor: #37373c;
+    @titlebackground: #27272a;
+    @titlelightcolor: #ccc;
+    @siderbackground: #202022;
+    @btnbackground: #494954;
+    @inputhoverborder: 1px solid #404047;
+    @iconfontcolor: #848484;
+    @selectionbackground: #303036;
+    @hovercolor: #53535f;
+    @defaultlinkhover: #0073e1;
+    @cardbackground: #202125;
+    @cardbackgroundinner: #575757;
+    @btnIconColor: #c9c9c9;
+    @appItemBackground: #27282f;
+    .noborder {
+        border: none;
+    }
+    .boxshadow {
+        box-shadow: 0 1px 1px @bordercolor;
+    }
+    .tableborder {
+        color: @spancolor;
+        border-right: @darkborder;
+        border-bottom: @darkborder;
+    }
+    // 滚动条整体
+    ::-webkit-scrollbar {
+        background-color: unset;
+    }
+    // 滚动条滑块
+    ::-webkit-scrollbar-thumb {
+        background-color: #52525e;
+    }
+    .nc-workbench-loading {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .nc_workbench-container-content,
+    .nc-workbench-home-page {
+        background-image: none !important;
+        background: @containbackground !important;
+        .nc-workbench-page {
+            .nc-workbench-page-container {
+                background: @backgroundLayoutcolor;
+            }
+        }
+    }
+    .nc-workbench-home-container {
+        background: @containbackground;
+        .title {
+            color: @selectcolor;
+        }
+    }
+    .nc-workbench-page-header,
+    .template-setting-header {
+        background: @theadcolor !important;
+        .back,
+        div,
+        h2 {
+            color: @selectedcolor !important;
+        }
+        .iconfont {
+            &:hover {
+                background: #4e4e5a !important;
+            }
+        }
+    }
+    .nc-workbench-ownpage-left,
+    .nc-workbench-ownpage-right {
+        .fixed-search-input {
+            background: @backgroundLayoutcolor;
+            input {
+                background: @forminputcolor;
+                color: @pribtncolor;
+            }
+            i {
+                color: @pribtncolor;
+            }
+        }
+        .ant-tree-title {
+            color: @spancolor;
+            &:hover {
+                color: @navlastchild;
+            }
+        }
+        .template-title {
+            background-color: @backgroundLayoutcolor;
+            color: @selectedcolor;
+        }
+        .default-footer {
+            background: @headerbackground;
+        }
+        .choose-btn {
+            border: @darkborder;
+        }
+        .ant-table-placeholder {
+            background: @backgroundLayoutcolor;
+            border: @darkborder;
+        }
+    }
+    .nc-workbench-ownpage-right {
+        .ant-form {
+            background: @forminputcolor !important;
+            .ant-form-item-children div {
+                color: @navlastchild;
+            }
+            input,
+            .ant-select-selection {
+                color: @spancolor;
+                background: @inputcolor !important;
+                border: @inputborder;
+                &:hover {
+                    border: 1px solid @inputhoverborder;
+                }
+                .ant-select-selection-selected-value {
+                    color: @spancolor;
+                }
+            }
+            .icon-tianjiayingyong {
+                color: #111 !important;
+            }
+        }
+        table {
+            border: @darkborder;
+            .ant-table-thead > tr:first-child > th:first-child,
+            .ant-table-thead > tr:first-child > th:last-child {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+    }
+    .workbench-userinfo,
+    .nc-workbench-ownpage,
+    .subjectSettingRight {
+        background: @backgroundLayoutcolor;
+        .previewTitle,
+        .previewTitle span,
+        .title,
+        article {
+            color: @selectedcolor !important;
+        }
+        label {
+            color: @labelcolor;
+        }
+        li {
+            color: @licolor !important;
+        }
+        .item-content {
+            span {
+                color: @spancolor;
+            }
+        }
+        .side-menu-active {
+            color: @selectedcolor;
+            background: @menucolor !important;
+        }
+        .customize-content,
+        .default-title,
+        .itemName {
+            color: @selectedcolor !important;
+        }
+        .layout-drag-block {
+            &::after {
+                background: @darkbordercolor !important;
+            }
+        }
+        // 代理人设置
+        .agentSetting {
+            .agent-container-div {
+                color: @spancolor;
+            }
+            .agent-container-All,
+            .agent-info-top {
+                background: @theadcolor;
+                color: @spancolor;
+            }
+            .agent-container-right {
+                border-left: @darkborder;
+            }
+            .agent-container-top,
+            .agent-container-All,
+            .agent-info-top {
+                border-bottom: @darkborder;
+            }
+            .agent-container-left {
+                .activeList {
+                    background: #2e2e33;
+                }
+            }
+            ul {
+                border-bottom: @darkborder;
+                &:hover {
+                    background: #2e2e33 !important;
+                }
+            }
+        }
+        .previewTitle {
+            border-bottom: @darkborder;
+        }
+        .border-bottom {
+            border-bottom: @darkborder;
+        }
+        table {
+            border: @darkborder;
+        }
+        .icon-qingkong,
+        .icon-sousuo {
+            color: @iconfontcolor !important;
+            &:hover {
+                color: @fonthovercolor !important;
+            }
+        }
+    }
+    .subjectSettingLeft {
+        border-right: @darkborder;
+        .subjectItem {
+            .itemObj {
+                &:hover {
+                    border-color: @backgroundaddcolor !important;
+                }
+            }
+            .checkedItem {
+                border-color: #44484e;
+            }
+        }
+    }
+    // 小部件
+    .grid {
+        .grid-item {
+            .app-item {
+                background: @appItemBackground;
+                .app-item_title {
+                    color: @titlelightcolor;
+                }
+                .app-content {
+                    background: @appItemBackground !important;
+                    .app-icon {
+                        opacity: 0.8;
+                    }
+                }
+                .msg-detail-container {
+                    background: @appItemBackground !important;
+                    .item {
+                        .uap-title,
+                        .widget-count,
+                        .widget-label {
+                            color: @titlelightcolor !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 蒙层
+    .ant-drawer-mask {
+        background-color: #000 !important;
+        opacity: 0.5 !important;
+    }
+    .nc-workbench-nav {
+        background: @navcolor;
+        .nc-workbench-allAppsBtn {
+            &::after {
+                background: @navborder;
+            }
+        }
+        .nc-workbench-icon-open {
+            background: inherit;
+            .nc-workbench-icon {
+                background-color: unset !important;
+            }
+        }
+        .ant-select-selection {
+            background: @selectbackcolor !important;
+            .ant-select-selection-selected-value,
+            svg {
+                color: @selectedcolor;
+            }
+        }
+        .workbench-breadcrumb {
+            .ant-breadcrumb {
+                color: @navfont;
+                & > span:first-child:hover {
+                    color: @fonthovercolor;
+                }
+                & > span:last-child {
+                    color: @navlastchild;
+                }
+            }
+        }
+        .nav-right,
+        .n-v-middle,
+        .nav-left {
+            i {
+                &::before {
+                    color: @navlastchild;
+                }
+            }
+            .ant-select-search__field__wrap {
+                input {
+                    color: @navlastchild;
+                    &:hover {
+                        border-bottom: 1px solid rgba(217, 217, 217, 0.5);
+                    }
+                }
+            }
+            .nc-workbench-businessdate {
+                .datepicker-input-group,
+                input {
+                    background: @navcolor;
+                    color: @navlastchild;
+                }
+                .nc_DatePickClientHourTime {
+                    background: @navcolor;
+                }
+            }
+            .iconContainer,
+            .nc-workbench-icon {
+                &:hover {
+                    background-color: #4c4c4c !important;
+                }
+            }
+        }
+        .nav-middle {
+            i::before {
+                color: @navlastchild !important;
+            }
+        }
+    }
+    // 分割线
+    .nccwb-header-info {
+        border-top: @darkborder;
+        border-bottom: @darkborder;
+        .tabs-icon {
+            .iconfont {
+                color: #e8e8e8;
+            }
+            .iconfontColor {
+                color: rgba(0, 0, 0, 0.65);
+            }
+        }
+    }
+    .nc-workbench-page-header {
+        border-bottom: @darkborder;
+    }
+    .ant-btn {
+        .noborder;
+        box-shadow: none !important;
+        background-color: @btnbackground;
+        color: @btnIconColor;
+        border-color: @bordercolor;
+        &:disabled {
+            color: #6b6b6b;
+            border-color: @bordercolor;
+            background-color: #313137;
+        }
+        &:hover {
+            color: @selectedcolor;
+            background-color: @hovercolor !important;
+        }
+        &:active,
+        &:focus {
+            background-color: @btnbackground;
+        }
+    }
+    .ant-btn-primary,
+    .empty-btn .ant-btn {
+        .noborder;
+        box-shadow: none !important;
+        background-color: @redcolor !important;
+        color: @pribtncolor !important;
+        &:disabled {
+            background-color: #f19b96 !important;
+        }
+        &:hover {
+            background-color: #d7332c !important;
+        }
+    }
+    .ant-btn-group {
+        .ant-btn-primary
+            + .ant-btn:not(.ant-btn-primary):not([disabled]):not(:last-child) {
+            border-color: @headerbackground;
+        }
+        > .ant-btn:last-child:not(:first-child) {
+            border-color: @headerbackground;
+        }
+    }
+    // tab
+    .ant-tabs-tab,
+    .nccwb-header-info a {
+        color: @navlastchild;
+        &:hover {
+            color: @navlastchild !important;
+        }
+    }
+    .ant-tabs-tab-active,
+    .nccwb-header-info .active {
+        color: @navlastchild !important;
+    }
+    .ant-tabs-ink-bar-animated {
+        background-color: @navlastchild;
+    }
+    .ant-tabs-bar,
+    .nccwb-header-info,
+    .nccwb-header-info .active span {
+        background: @titlebackground;
+        border-bottom: @darkborder;
+    }
+    .approveitemFooter {
+        border-top: @darkborder;
+    }
+    .ant-tabs-bar {
+        margin: 0;
+    }
+    // 树组件
+    .ant-tree {
+        .ant-tree-switcher,
+        .ant-tree-switcher_close {
+            background: unset !important;
+            i {
+                color: @selectedcolor !important;
+            }
+        }
+        .ant-tree-node-content-wrapper {
+            &:hover {
+                background: @backgroundaddcolor !important;
+            }
+        }
+        .ant-tree-treenode-selected {
+            .ant-tree-node-selected {
+                background: @backgroundaddcolor !important;
+                color: @navlastchild !important;
+                span {
+                    background: @backgroundaddcolor;
+                    color: @navlastchild;
+                }
+            }
+        }
+    }
+    .ant-table {
+        th,
+        td {
+            .tableborder;
+        }
+        th {
+            background: @theadcolor;
+        }
+        tr {
+            &:hover {
+                td {
+                    background: #2e2e33 !important;
+                }
+            }
+        }
+        a {
+            color: #5790ff !important;
+        }
+        .ant-table-tbody {
+            background: @titlebackground;
+        }
+        .ant-table-row-hover > td {
+            background: #2e2e33 !important;
+        }
+    }
+    // 弹窗
+    .ant-modal-content {
+        background: @forminputcolor;
+        .ant-modal-close-x {
+            &:hover {
+                .anticon-close {
+                    color: @selectedcolor !important;
+                }
+                background: rgba(0, 0, 0, 0.2) !important;
+            }
+            .anticon-close {
+                color: @licolor !important;
+            }
+        }
+        .ant-modal-header {
+            background: @headerbackground;
+            border-bottom: @darkborder;
+        }
+        .ant-modal-body {
+            .captcha-btn {
+                background: @redcolor !important;
+                &:hover {
+                    span {
+                        color: @pribtncolor !important;
+                    }
+                }
+            }
+            .image-list {
+                background: @backgroundLayoutcolor;
+                border: @darkborder;
+            }
+            .choose-imgae-list {
+                .title {
+                    color: @titlecolor;
+                }
+            }
+        }
+        .ant-modal-footer {
+            border-top: @darkborder;
+        }
+        .ant-form-item-children {
+            label {
+                color: @labelcolor;
+            }
+            input {
+                color: @spancolor;
+                background: @inputcolor !important;
+                border: @inputborder;
+                &:hover {
+                    border: 1px solid @inputhoverborder;
+                }
+            }
+        }
+        .has-error {
+            input {
+                border-color: #7e5050;
+            }
+        }
+        .ant-form-item-required:before {
+            color: #ff9347;
+        }
+    }
+    .ant-modal-title {
+        color: @titlecolor !important;
+        &:hover {
+            color: @fonthovercolor;
+        }
+    }
+    .ant-modal-body,
+    .ant-drawer-body,
+    .drawer-content,
+    .setting-content,
+    .ant-modal-content input {
+        background: @navcolor !important;
+    }
+    .ant-modal-body,
+    .ant-drawer-body,
+    .drawer-content,
+    .setting-content,
+    .sider,
+    .content,
+    .ant-modal-content input {
+        color: @navlastchild;
+        p,
+        span:not(.result-header-name),
+        a,
+        label,
+        input,
+        i {
+            color: @titlecolor !important;
+            &::before {
+                color: @navfont;
+            }
+        }
+        .active {
+            &::after {
+                background-color: @titlecolor !important;
+            }
+        }
+        .content {
+            .item-app {
+                color: @titlecolor !important;
+            }
+        }
+        .result-header-name {
+            color: @selectedcolor !important;
+        }
+        .content-item-header {
+            span {
+                color: @selectedcolor !important;
+            }
+        }
+        .form-area-content {
+            background-color: @inputcolor !important;
+        }
+    }
+    .sider {
+        background: @backgroundLayoutcolor;
+    }
+    .content {
+        background: @headerbackground !important;
+    }
+    .drawer-content {
+        .grandson-content {
+            border-top: @darkborder;
+        }
+    }
+    // 日期组件
+    .rc-calendar-picker {
+        .rc-calendar-date {
+            color: @spancolor;
+        }
+        .rc-calendar-today {
+            .rc-calendar-date {
+                border: 1px solid @redcolor;
+                color: @redcolor;
+            }
+        }
+        .rc-calendar-selected-day {
+            .rc-calendar-date {
+                border: 1px solid #383841;
+                background: #2a2a32;
+                color: @redcolor;
+            }
+        }
+        .rc-calendar-last-month-cell,
+        .rc-calendar-next-month-btn-day {
+            .rc-calendar-date {
+                color: #a5adba;
+            }
+        }
+        .workbench-ExtraFooter {
+            span {
+                color: @redcolor;
+            }
+        }
+    }
+    .all-apps-layout {
+        .list-item-content {
+            &:hover {
+                span {
+                    color: @fonthovercolor !important;
+                }
+            }
+        }
+        .active {
+            border-bottom-color: @fonthovercolor !important;
+            span {
+                color: @fonthovercolor !important;
+            }
+        }
+        .item-app {
+            &:hover {
+                color: @fonthovercolor !important;
+            }
+        }
+    }
+    // 消息
+    .message-content {
+        background: @headerbackground;
+        .ant-tabs-tab :not(.ant-tabs-tab-active) {
+            color: @titlecolor !important;
+        }
+        .ant-tabs-tab-active {
+            color: @selectedcolor!important;
+        }
+        .ant-tabs-ink-bar-animated {
+            background-color: @selectedcolor !important;
+        }
+        .tabContainter {
+            border-bottom: @darkborder;
+            &:hover {
+                background: @menucolor;
+            }
+            .messageTitle p {
+                color: @selectedcolor !important;
+            }
+            .sender {
+                color: @titlecolor !important;
+            }
+            .timeRight {
+                color: #9b9b9b !important;
+            }
+        }
+        .approveitemFooter {
+            color: @spancolor !important;
+        }
+        .otheritemFooter {
+            color: @spancolor !important;
+            border-top: @darkborder;
+        }
+    }
+    // 复选框
+    .ant-checkbox-checked {
+        .ant-checkbox-inner {
+            &::after {
+                border-color: @pribtncolor;
+            }
+        }
+    }
+    .ant-checkbox-wrapper {
+        .ant-checkbox + span {
+            color: @spancolor !important;
+        }
+    }
+    .ant-input {
+        border-color: #3d3d47;
+        &:hover {
+            border-color: #8cc6ff;
+        }
+        &:focus {
+            border-color: #52525c;
+        }
+    }
+    // 模板配置
+    .template-setting-page {
+        .template-setting-header {
+            background: @theadcolor;
+            border-bottom: @darkborder;
+            .back,
+            span {
+                color: @selectedcolor !important;
+            }
+            button {
+                span {
+                    color: @pribtncolor !important;
+                }
+            }
+        }
+        .template-setting-left-sider-container {
+            border-right: @darkborder;
+            .drag-item-wrapper {
+                background: @btnbackground !important;
+                color: @selectedcolor !important;
+                box-shadow: none !important;
+                &:hover {
+                    .drag-item,
+                    span {
+                        color: @selectedcolor !important;
+                    }
+                }
+                &:active {
+                    .drag-item,
+                    span {
+                        color: #0c88fe !important;
+                    }
+                }
+                .name {
+                    color: @spancolor !important;
+                }
+            }
+        }
+        .template-setting-right-sider {
+            border-left: @darkborder;
+        }
+        .template-setting-left-sider {
+            .ant-form-item-children {
+                span {
+                    color: @spancolor;
+                }
+            }
+        }
+
+        .template-setting-left-sider,
+        .template-setting-right-sider {
+            background: @siderbackground !important;
+            label,
+            li:nth-child(odd) {
+                color: @labelcolor;
+            }
+            .title {
+                color: @spancolor;
+            }
+            input,
+            .ant-select-selection {
+                color: @spancolor;
+                background: @inputcolor !important;
+                border: @inputborder;
+                &:hover {
+                    border: 1px solid @inputhoverborder;
+                }
+                .ant-select-selection-selected-value {
+                    color: @spancolor;
+                }
+            }
+        }
+        .template-setting-content {
+            background: @titlebackground !important;
+            .form-group-title {
+                background: @titlebackground !important;
+                .group-name {
+                    color: @selectedcolor;
+                }
+            }
+            .form-area-group {
+                span,
+                a {
+                    color: @spancolor !important;
+                }
+            }
+            .area-item {
+                background: @titlebackground;
+                border: @darkborder;
+                .area-item-header {
+                    background: @theadcolor;
+                    .area-name {
+                        color: @spancolor;
+                    }
+                    .area-item-button {
+                        span,
+                        a {
+                            color: @spancolor;
+                        }
+                    }
+                    .area-btn {
+                        color: @navlastchild !important;
+                        background: @btnbackground;
+                        border-color: @headerbackground !important;
+                        &:hover {
+                            background: @hovercolor;
+                        }
+                        .iconfont {
+                            &::before {
+                                color: @navlastchild !important;
+                            }
+                        }
+                    }
+                }
+                .item-name {
+                    color: @spancolor;
+                    background: @theadcolor !important;
+                    border-top: @darkborder;
+                    border-bottom: @darkborder;
+                }
+                .form-area-content {
+                    .select-card {
+                        .item-name {
+                            border-top: none !important;
+                            border-bottom: none !important;
+                            background-color: #194f75 !important;
+                        }
+                    }
+                    .card-content:not(.select-card) {
+                        .item-name {
+                            border-top: none !important;
+                            border-bottom: none !important;
+                            background-color: @titlebackground !important;
+                        }
+                    }
+                }
+                .form-area-content {
+                    background-color: @inputcolor !important;
+                    border-top: @darkborder;
+                }
+                .oper-col-content {
+                    background-color: rgb(39, 39, 42) !important;
+                }
+            }
+            .search-area-content {
+                border-top: @darkborder;
+            }
+        }
+    }
+    // 桌面设置
+    .nc-desktop-setting {
+        border-top: @darkborder;
+        i {
+            color: @titlelightcolor;
+        }
+        input {
+            color: @selectcolor;
+        }
+        .nc-workbench-home-sider {
+            background: @siderbackground;
+            .add-item {
+                background: #2f2f2f !important;
+            }
+            .result-header {
+                color: @selectedcolor;
+                background: #3a3a3d !important;
+                i {
+                    color: @titlelightcolor !important;
+                }
+            }
+            .list-item-content {
+                &:hover {
+                    border: 1px dashed @pribtncolor !important;
+                    .unSelect {
+                        color: @titlelightcolor !important;
+                    }
+                }
+                .title {
+                    color: @titlecolor !important;
+                }
+                .titleChecked {
+                    color: #eee !important;
+                }
+                .unSelect {
+                    color: @siderbackground !important;
+                }
+            }
+            .search-cascader {
+                background: @inputcolor;
+                .ant-cascader-picker-label {
+                    color: @selectedcolor;
+                }
+                input {
+                    border-bottom: none;
+                }
+            }
+            .ant-input-search:hover {
+                .iconfont {
+                    color: @iconfontcolor;
+                    &:hover {
+                        color: @fonthovercolor;
+                    }
+                }
+            }
+            .ant-input-search input {
+                background: @inputcolor;
+                border-bottom: none;
+            }
+            .ant-input {
+                border-color: #3d3d47 !important;
+                &:focus {
+                    border-color: unset !important;
+                }
+            }
+            .switch-search-cancel {
+                color: @selectedcolor;
+            }
+        }
+        .nc-desktop-setting-content {
+            background: @containbackground;
+            .content-anchor {
+                .active {
+                    color: @selectedcolor !important;
+                    span {
+                        &::after {
+                            background: @selectedcolor !important;
+                        }
+                    }
+                }
+            }
+            .group-item-title {
+                color: @selectedcolor;
+            }
+            .content-anchor,
+            .group-item-title-container-no-edit,
+            .group-item-add {
+                background: @siderbackground !important;
+                .title-left {
+                    i:hover {
+                        color: @fonthovercolor !important;
+                    }
+                }
+            }
+            .group-item-title-not-edit {
+                i {
+                    color: #aeaeae;
+                }
+            }
+            .nc-workbench-home-footer {
+                background: #25252b;
+                border-top: @darkborder;
+                .footer-left {
+                    .footer-button {
+                        border: @darkborder;
+                    }
+                }
+            }
+            .card-container {
+                .card {
+                    .noborder !important;
+                    background: @cardbackground !important;
+                    > div {
+                        color: @titlecolor !important;
+                    }
+                    .card-footer {
+                        background: @cardbackground !important;
+                        .ant-checkbox-inner {
+                            background: @cardbackgroundinner;
+                        }
+                        .icon-shanchu {
+                            color: @titlelightcolor;
+                            &:hover {
+                                color: @fonthovercolor !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 个人日志
+    .workbench-ownlog-log {
+        .header {
+            background: @headerbackground;
+            color: @selectedcolor !important;
+            .iconfont {
+                color: @iconfontcolor;
+                &:hover {
+                    background: @theadcolor !important;
+                }
+            }
+        }
+        .log-search-area {
+            border-top: @darkborder;
+        }
+    }
+    .desk-setting-cascader-popup {
+        background: @backgroundLayoutcolor;
+        .ant-cascader-menu {
+            border-right: @darkborder;
+            li {
+                color: @licolor;
+                &:hover {
+                    background: @menucolor;
+                }
+                .ant-cascader-menu-item-expand-icon {
+                    color: #bbb;
+                }
+            }
+            .ant-cascader-menu-item-active {
+                background: @menucolor;
+            }
+        }
+    }
+    .u-modal-content {
+        .prompt-title {
+            color: @spancolor;
+        }
+        .prompt-content {
+            color: @selectedcolor;
+        }
+    }
+    .ant-tabs-ink-bar {
+        height: 1px;
+    }
+    // 下拉
+    .ant-select-selection {
+        // 修复NCCLOUD-161567 by renyjk
+        color: @spancolor;
+        background: @inputcolor !important;
+    }
+
+    .ant-select-dropdown {
+        .ant-select-dropdown-menu {
+            .ant-select-dropdown-menu-item {
+                background: @backgroundLayoutcolor;
+                color: @licolor !important;
+            }
+            .ant-select-dropdown-menu-item-selected,
+            .ant-select-dropdown-menu-item-active {
+                background: @menucolor !important;
+                color: @selectedcolor !important;
+            }
+        }
+    }
+    .ant-select-arrow {
+        color: @licolor;
+    }
+    .zonesetting-batch-setting-modal {
+        .u-modal-body {
+            .ant-table-fixed-left th {
+                border-top-left-radius: 0;
+            }
+            .ant-table-fixed {
+                .noborder;
+                .ant-table-fixed-columns-in-body {
+                    .noborder;
+                }
+            }
+            input,
+            .ant-select-selection {
+                color: @selectcolor;
+                background: @selectionbackground !important;
+                border: @inputborder;
+            }
+            .ant-select-selection {
+                background: @selectionbackground !important;
+                .ant-select-selection-selected-value {
+                    color: @selectcolor;
+                }
+            }
+            .ant-table-placeholder {
+                background: @titlebackground;
+            }
+        }
+    }
+    // 模板设置预览
+    .viewPageTem {
+        .descrip {
+            color: @spancolor;
+        }
+    }
+    // 模板设置新增非元数据
+    .add-not-meta-data {
+        .u-modal-body {
+            .code-div,
+            .not-code {
+                span {
+                    color: @labelcolor;
+                }
+                input {
+                    background: @forminputcolor;
+                    color: @pribtncolor;
+                }
+            }
+        }
+    }
+    // 模板设置新增元数据
+    .meta-add-modal {
+        .ant-tree-title {
+            color: @bordercolor;
+        }
+        li {
+            &:hover {
+                .ant-tree-node-content-wrapper {
+                    background: @backgroundaddcolor !important;
+                }
+            }
+        }
+        .ant-select-selection {
+            color: @selectcolor;
+            background: @selectionbackground !important;
+            border: @inputborder;
+        }
+    }
+    // 模板分配
+    .allocationPage {
+        .pageCode-show {
+            background-color: @backgroundLayoutcolor;
+            color: @selectedcolor;
+        }
+        .allocationPage-content {
+            .ant-tree-title,
+            label {
+                color: @labelcolor;
+            }
+            .allocation-treeCom {
+                .fixed-search-input {
+                    background-color: @backgroundLayoutcolor;
+                    input {
+                        background: @forminputcolor;
+                        color: @pribtncolor;
+                    }
+                    i {
+                        color: @iconfontcolor;
+                        &:hover {
+                            color: @pribtncolor !important;
+                        }
+                    }
+                }
+                .ant-tree-title {
+                    color: @pribtncolor;
+                    &:hover {
+                        color: @navlastchild;
+                    }
+                }
+                .allocation-treeScrollName {
+                    border-right: @darkborder;
+                }
+            }
+            .allocation-button {
+                > div {
+                    border-top: @darkborder;
+                }
+                .u-button {
+                    .icon {
+                        color: @btnIconColor !important;
+                    }
+                }
+            }
+            .allocation-treeContainer {
+                .allocation-tree {
+                    border-color: @darkbordercolor !important;
+                }
+            }
+        }
+    }
+    // 勿扰弹窗
+    .disturbModal {
+        .ant-select-selection {
+            color: @spancolor;
+            background: @inputcolor !important;
+            border: @inputborder;
+            &:hover {
+                border: 1px solid @inputhoverborder;
+            }
+            .ant-select-selection-selected-value {
+                color: @spancolor;
+            }
+            .anticon {
+                color: @spancolor;
+            }
+        }
+        .ant-alert {
+            background-color: @headerbackground;
+            color: @titlecolor;
+        }
+    }
+    // 菜单自定义升级
+    .treetransfer-modal {
+        .tree-transfer-left,
+        .tree-transfer-right {
+            background-color: @backgroundLayoutcolor;
+            .menutree-container {
+                background-color: @headerbackground;
+                border: @darkborder;
+                .title {
+                    color: @selectedcolor;
+                    background-color: @backgroundaddcolor;
+                }
+                .ant-tree-node-content-wrapper {
+                    color: #c4c0c0;
+                    &:hover {
+                        color: @navlastchild;
+                        background: @backgroundaddcolor !important;
+                    }
+                }
+            }
+        }
+    }
+    // 空状态图标
+    .commondataPlaceholder,
+    .noDataTip {
+        opacity: 0.5;
+    }
+    .ant-popover {
+        .ant-popover-arrow {
+            box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.6);
+            background: @titlebackground;
+        }
+        .ant-popover-inner {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+            background: @headerbackground;
+            .ant-popover-title {
+                color: @selectedcolor;
+            }
+            .ant-popover-inner-content {
+                .item-app {
+                    &:hover {
+                        color: @selectedcolor !important;
+                        background: @menucolor !important;
+                    }
+                    color: @licolor !important;
+                }
+                .ant-popover-message {
+                    color: @licolor !important;
+                }
+                .ant-btn:not(.ant-btn-primary) {
+                    background-color: @btnbackground !important;
+                    &:hover {
+                        background-color: @hovercolor !important;
+                        span {
+                            color: @selectedcolor !important;
+                        }
+                    }
+                }
+            }
+            .recentClear {
+                background: @backgroundLayoutcolor;
+                .iconfont {
+                    &::before {
+                        color: @defaultlinkhover;
+                    }
+                }
+            }
+            .knowledgeItem {
+                color: @selectedcolor !important;
+                &:hover {
+                    color: @defaultlinkhover !important;
+                }
+            }
+        }
+    }
+    // dropdown
+    .ant-dropdown {
+        .ant-dropdown-menu {
+            background-color: @forminputcolor;
+            li {
+                &:hover {
+                    background-color: @btnbackground !important;
+                }
+                button {
+                    color: @spancolor;
+                    &:hover {
+                        background-color: @btnbackground !important;
+                        color: @selectedcolor;
+                    }
+                }
+            }
+            .all_expand {
+                border-bottom: @darkborder;
+            }
+        }
+    }
+    .nc-account-activation {
+        .ant-steps-item-process {
+            .ant-steps-item-title {
+                color: @selectedcolor;
+            }
+        }
+        .ant-steps-item-wait,
+        .ant-steps-item-finish {
+            .ant-steps-item-title {
+                color: @spancolor;
+            }
+            .ant-steps-item-icon {
+                border: 2px solid @darkbordercolor;
+            }
+        }
+        .ant-steps-item-tail:after {
+            background-color: @darkbordercolor;
+        }
+        .part-one,
+        .part-two,
+        .part-three {
+            border-top: @darkborder;
+        }
+    }
+    // 应用复制
+    .vertical-center-modal {
+        .copyapp-content {
+            .workbench-scroll {
+                border: @darkborder;
+            }
+            .copyapp-form {
+                .ant-form {
+                    background: @backgroundLayoutcolor;
+                    .form-display-content {
+                        color: @spancolor;
+                    }
+                }
+            }
+        }
+    }
+}

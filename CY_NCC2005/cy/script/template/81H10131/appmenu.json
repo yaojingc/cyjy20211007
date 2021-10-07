@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-07-29 09:45:24"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-07-29 09:45:24"
+},
+{
+"dr": "0",
+"menuitemcode": "81H101",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-07-29 09:45:24"
+},
+  {
+    "appcode": "81H10131",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "消息中转站",
+    "menuitemcode": "81H10131",
+    "menuitemname": "消息中转站",
+    "parentcode": "81H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-07-29 09:45:24"
+},
+{
+    "appcode": "81H10131A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "消息中转站",
+    "menuitemcode": "81H10131A",
+    "menuitemname": "消息中转站审批",
+    "parentcode": "81H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-07-29 09:45:24"
+}
+]

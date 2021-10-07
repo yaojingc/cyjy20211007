@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H11505,81H11505A</appcode>
+		<actions>
+			<!-- 学费减免参照 -->
+			<action>cy.cy.XuefeijmGridReferQuery</action>
+			<!-- 学费收款合同变更 -->
+			<action>cy.cy.XfjmEditAfter</action>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+			<!-- 学生参照 -->
+			<action>cy.cy.StudentGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardcreditcontractHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypagecreditcontractHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkcreditcontractHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.savecreditcontractHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deletecreditcontractHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitcreditcontractHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitcreditcontractHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

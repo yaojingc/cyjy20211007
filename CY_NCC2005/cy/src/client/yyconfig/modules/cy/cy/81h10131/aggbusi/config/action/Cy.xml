@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savemsgstationHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletemsgstationHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagemsgstationHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkmsgstationHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardmsgstationHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitmsgstationHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitmsgstationHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.msgstationhvo.action.MsgstationHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

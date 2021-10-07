@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H10565_LIST",
+    "pagename": "行程安排列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10565/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10565",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H10565_LIST,
+    "ts": "2021-09-10 12:31:08"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H10565_CARD",
+    "pagename": "行程安排卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h10565/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H10565",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H10565_CARD,
+    "ts": "2021-09-10 12:31:08"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H10565L_CARD",
+"pagename": "行程安排联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h10565/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H10565",
+"pk_apppage": "PK_PG03",
+"resid": 81H10565_CARD,
+"ts": "2021-09-10 12:31:08"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H10565A_CARD",
+"pagename": "行程安排审批",
+"pageurl": "/nccloud/resources/cy/cy/81h10565/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H10565A",
+"pk_apppage": "PK_PG04",
+"resid": 81H10565A_CARD,
+"ts": "2021-09-10 12:31:08"
+}
+]

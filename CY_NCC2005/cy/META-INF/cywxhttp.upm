@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='gb2312'?>
+<module name="cy">
+	<public>
+
+		<!-- nc.api.cy.rest.itf.WxServiceMsg.WxMsgHelper 微信消息回复机器人（弃用）  -->
+		<component accessProtected="false" name="cywsmh" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nccloud.impl.WxServiceMsg.WxMsgHelper</implementation>
+		</component>
+		<!-- 威缴费银行付款回调接口  -->
+		<component accessProtected="false" name="paystatuscallback" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nccloud.impl.sync.BankRetuenServlet</implementation>
+		</component>
+
+
+
+		<!-- ******************************************* 微信小程序相关接口 一律用httpservlet接口NCC的rest接口会导致入参丢失******************************************* -->
+		<!-- 微信登录接口  -->
+		<component accessProtected="false" name="applogin" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.wx.CyWXLogin</implementation>
+		</component>
+
+		<!-- 微信支付接口  -->
+		<component accessProtected="false" name="paymentrequest" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.wx.CyWXPayment</implementation>
+		</component>
+
+		<!-- 家长端学生信息绑定  -->
+		<component accessProtected="false" name="bindstuinfo" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.stuinfo.CyBindStuInfo</implementation>
+		</component>
+
+		<!-- 根据身份证号查询学生学生档案  -->
+		<component accessProtected="false" name="queryStuInfo2" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.stuinfo.CyQueryStuInfo2</implementation>
+		</component>
+
+		<!-- 绑定家长手机号  -->
+		<component accessProtected="false" name="bindparentphone" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.stuinfo.CyBindParentPhone</implementation>
+		</component>
+
+		<!-- 查询学生信息是否绑定  -->
+		<component accessProtected="false" name="studentbindquery" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.stuinfo.CyStuBindQuery</implementation>
+		</component>
+
+		<!-- 更新绑定的邮箱  -->
+		<component accessProtected="false" name="updateEmailById" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.stuinfo.CyUpdateEmailById</implementation>
+		</component>
+
+		<!-- 消息查询接口  -->
+		<component accessProtected="false" name="msgquery" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.msginfo.CyMsgQuery</implementation>
+		</component>
+
+		<!-- 客服通道信息新增  -->
+		<component accessProtected="false" name="callcenterinsert" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.msginfo.CyCallCenterInsert</implementation>
+		</component>
+
+		<!-- 缴费记录查询 -->
+		<component accessProtected="false" name="bankquery" remote="false" singleton="true"
+			tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.msginfo.CyBankStateMentQuery</implementation>
+		</component>
+
+		<!-- 蓝票查询 -->
+		<component accessProtected="false" name="queryblueinvoice" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.invoice.CyQueryBlueInvoice</implementation>
+		</component>
+
+		<!-- 开蓝票 -->
+		<component accessProtected="false" name="blueinvoicesend" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.invoice.CyBlueInvoiceSend</implementation>
+		</component>
+
+		<!-- 合同创建 -->
+		<component accessProtected="false" name="createcontract" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.contract.CyCreateContract</implementation>
+		</component>
+
+		<!-- 合同更新 -->
+		<component accessProtected="false" name="ccontractUpdate" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.contract.CyContractUpdate</implementation>
+		</component>
+		
+		<!-- 合同查询 -->
+		<component accessProtected="false" name="ccontractquery" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.contract.CyContractQuery</implementation>
+		</component>
+		
+		<!-- 学生年度成绩查询,表单 -->
+		<component accessProtected="false" name="queryYearScore" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.chartinfo.CyQueryYearScore</implementation>
+		</component>
+
+		<!-- 学生历史成绩查询,图表   状元之路  -->
+		<component accessProtected="false" name="querySeriesScore" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.chartinfo.CyQuerySeriesScore</implementation>
+		</component>
+		
+		<!-- 学生考勤情况查询  -->
+		<component accessProtected="false" name="queryCheckInInfo" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.chartinfo.CyQueryCheckInInfo</implementation>
+		</component>
+
+		
+		<!-- 短信发送接口  -->
+		<component accessProtected="false" name="smsSend" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.sms.CySmsSend</implementation>
+		</component>
+		
+		
+		<!-- 家长端小程序用户密码登录  -->
+		<component accessProtected="false" name="miniLogin" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.login.CyMiniLogin</implementation>
+		</component>
+		
+		
+		<!-- 家长端小程序用户注册  -->
+		<component accessProtected="false" name="miniRegister" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.login.CyMiniRegister</implementation>
+		</component>
+		
+		<!-- 家长端小程序用户忘记密码  -->
+		<component accessProtected="false" name="pwUpdate" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.login.CyPwUpdate</implementation>
+		</component>
+		
+		<!-- 考勤，课程 全月有数据的  -->
+		<component accessProtected="false" name="queryMonthTimeTable" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.chartinfo.CyQueryMonthTimeTable</implementation>
+		</component>
+		
+		<!-- 家长端小程序退费申请  -->
+		<component accessProtected="false" name="paymentReturnBack" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.returnpremium.CyPaymentReturnBack</implementation>
+		</component>
+		
+		
+		
+		<!-- 家长端小程序退费申请银行档案参照  -->
+		<component accessProtected="false" name="bankDocListQuery" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.returnpremium.CyBankDocListQuery</implementation>
+		</component>
+		
+		
+		
+		
+		
+		<!-- 测试  -->
+		<component accessProtected="false" name="qwerasdf" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nccloud.impl.sync.DunningMsgOprator</implementation>
+		</component>
+		
+		<!-- 学生档案部分信息查询  -->
+		<component accessProtected="false" name="queryStudentInfo" remote="false"
+			singleton="true" tx="NONE" >
+			<implementation>nc.api.cy.rest.itf.miniprogram.chartinfo.CyQueryStudentInfo</implementation>
+		</component>
+
+
+	</public>
+	<private>
+	</private>
+</module>

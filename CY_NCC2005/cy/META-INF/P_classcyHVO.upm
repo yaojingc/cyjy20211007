@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module name="cy">
+  <public>
+        <component remote="true" singleton="true"  tx="CMT">
+          <interface>nccloud.itf.cy.cy.IClasscyhvoMaintain</interface>
+          <implementation>nccloud.impl.cy.cy.ClasscyhvoMaintainImpl</implementation>
+        </component>
+  </public> 
+</module> 

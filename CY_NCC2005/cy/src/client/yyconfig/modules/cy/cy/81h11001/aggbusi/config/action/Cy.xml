@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savecallcenterHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletecallcenterHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagecallcenterHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkcallcenterHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardcallcenterHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitcallcenterHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitcallcenterHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.callcenterhvo.action.CallcenterHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

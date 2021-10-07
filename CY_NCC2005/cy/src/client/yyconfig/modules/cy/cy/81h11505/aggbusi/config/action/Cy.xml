@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.XfjmEditAfter</name>
+		<label>学费减免申请单参照编辑后事件带出值</label>
+		<clazz>nccloud.cy.cy.creditcontracthvo.action.XfjmEditAfterAction</clazz>
+	</action>
+	
+	<action>
+		<name>cy.cy.XuefeijmGridReferQuery</name>
+		<label>学费减免申请单参照</label>
+		<clazz>nccloud.cy.cy.xuefeijmhvo.action.XuefeijmGridReferQueryAction</clazz>
+	</action>
+	
+	
+
+
+
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction</clazz>
+	</action>
+	<action>
+		<name>cy.cy.ClassCyGridReferQuery</name>
+		<label>班级参照</label>
+		<clazz>nccloud.cy.cy.classcyhvo.action.ClassCyGridReferQueryAction</clazz>
+	</action>
+	<action>
+		<name>cy.cy.StudentGridReferQuery</name>
+		<label>学生参照</label>
+		<clazz>nccloud.cy.cy.studenthvo.action.StudentGridReferQueryAction</clazz>
+	</action>
+	
+    <action>
+        <name>cy.cy.savecreditcontractHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletecreditcontractHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagecreditcontractHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkcreditcontractHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardcreditcontractHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitcreditcontractHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitcreditcontractHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.creditcontracthvo.action.CreditcontractHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

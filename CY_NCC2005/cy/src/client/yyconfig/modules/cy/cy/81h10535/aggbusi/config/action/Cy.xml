@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction</clazz>
+	</action>
+    <action>
+        <name>cy.cy.savejiedaiapplyHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletejiedaiapplyHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagejiedaiapplyHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkjiedaiapplyHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardjiedaiapplyHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitjiedaiapplyHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitjiedaiapplyHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.jiedaiapplyhvo.action.JiedaiapplyHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

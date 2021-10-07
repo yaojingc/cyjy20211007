@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.SchoolGridReferQuery</name>
+		<label>学校参照</label>
+		<clazz>nccloud.cy.cy.schoolbasicshvo.action.SchoolGridReferQueryAction</clazz>
+	</action>
+	<action>
+		<name>cy.cy.ClassCyGridReferQuery</name>
+		<label>班级参照</label>
+		<clazz>nccloud.cy.cy.classcyhvo.action.ClassCyGridReferQueryAction</clazz>
+	</action>
+    <action>
+        <name>cy.cy.saveyejiapplyHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deleteyejiapplyHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypageyejiapplyHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypkyejiapplyHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardyejiapplyHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commityejiapplyHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommityejiapplyHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.yejiapplyhvo.action.YejiapplyHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

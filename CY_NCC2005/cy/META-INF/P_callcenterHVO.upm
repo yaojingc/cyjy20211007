@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module name="cy">
+  <public>
+        <component remote="true" singleton="true"  tx="CMT" accessProtected="false">
+          <interface>nccloud.itf.cy.cy.ICallcenterhvoMaintain</interface>
+          <implementation>nccloud.impl.cy.cy.CallcenterhvoMaintainImpl</implementation>
+        </component>
+  </public> 
+</module> 

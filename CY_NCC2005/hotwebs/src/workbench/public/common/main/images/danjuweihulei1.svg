@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 65 65" style="enable-background:new 0 0 65 65;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Oval-6-Copy-3_1_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#00B46B;}
+	.st4{fill:url(#Oval-6-Copy-4_1_);}
+	.st5{fill:url(#Oval-6-Copy-5_1_);}
+</style>
+<g>
+	
+		<radialGradient id="Oval-6-Copy-3_1_" cx="-271.1023" cy="455.1221" r="0.6373" gradientTransform="matrix(6.000000e-15 101.8666 101.0097 -6.000000e-15 -45955.7461 27610.8359)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#00DD8E"/>
+		<stop  offset="0.7634" style="stop-color:#00B46B"/>
+		<stop  offset="1" style="stop-color:#00BF47"/>
+	</radialGradient>
+	<ellipse id="Oval-6-Copy-3_21_" class="st0" cx="32.5" cy="32.5" rx="32.5" ry="32.5"/>
+	<g>
+		<path id="XMLID_122_" class="st1" d="M44.6,21c1.3,1.1,2.1,2.7,2.1,4.5v15.3c0,3.2-2.6,5.8-5.9,5.8H27.7c-1.7,0-3.3-0.7-4.3-1.9
+			H26c0.5,0.2,1,0.3,1.6,0.3h13.1c2.4,0,4.3-1.9,4.3-4.2V25.5c0-0.7-0.2-1.4-0.5-1.9V21z"/>
+		<g id="XMLID_123_">
+			<path id="XMLID_258_" class="st2" d="M40.7,42.8H20.5c-1.2,0-2.2-1-2.2-2.2V19.2c0-1.2,1-2.2,2.2-2.2h20.2c1.2,0,2.2,1,2.2,2.2
+				v21.5C42.8,41.9,41.8,42.8,40.7,42.8z"/>
+			<path id="XMLID_252_" class="st3" d="M21.4,23.4L21.4,23.4c0-0.4,0.3-0.8,0.8-0.8h4.7c0.4,0,0.8,0.3,0.8,0.8v0
+				c0,0.4-0.3,0.8-0.8,0.8h-4.7C21.8,24.2,21.4,23.9,21.4,23.4z"/>
+			<path id="XMLID_143_" class="st3" d="M21.3,34.8L21.3,34.8c0-0.4,0.3-0.8,0.8-0.8h12.8c0.4,0,0.8,0.3,0.8,0.8l0,0
+				c0,0.4-0.3,0.8-0.8,0.8H22.1C21.7,35.5,21.3,35.2,21.3,34.8z"/>
+			<path id="XMLID_142_" class="st3" d="M21.4,29.1L21.4,29.1c0-0.4,0.3-0.8,0.8-0.8h9.2c0.4,0,0.8,0.3,0.8,0.8v0
+				c0,0.4-0.3,0.8-0.8,0.8h-9.2C21.8,29.9,21.4,29.5,21.4,29.1z"/>
+			<polygon id="XMLID_141_" class="st3" points="33.8,17 33.8,23.7 36.7,22.8 39.2,23.8 39.2,17 			"/>
+		</g>
+	</g>
+	
+		<radialGradient id="Oval-6-Copy-4_1_" cx="-264.1969" cy="464.3437" r="1.151" gradientTransform="matrix(56.3191 15.2012 15.0733 -56.7969 7920.5728 30442.2871)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#00941A;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#00BF61;stop-opacity:0.84"/>
+	</radialGradient>
+	<path id="Oval-6-Copy-4_21_" class="st4" d="M32.5,64.8C50.4,64.8,65,50.3,65,32.4c0-1.3,0-1.9-0.1-2.6c-0.1-0.6-0.1-1.3-0.2-1.7
+		c-0.9-2.2-3.4,1.1-14.5,4.3C34.3,37,34,47.3,29.2,50c-9.8,5.6-10.8,0-15.9-4.1c-5.6-4.6-11.8-2-9.1,2.7
+		C9.9,58.3,20.5,64.8,32.5,64.8z"/>
+	
+		<radialGradient id="Oval-6-Copy-5_1_" cx="-253.0339" cy="456.9318" r="0.6495" gradientTransform="matrix(34.6002 -46.4016 -46.0113 -34.8937 29825.7266 4247.1245)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#00F142;stop-opacity:0"/>
+		<stop  offset="0.9859" style="stop-color:#00E9B5;stop-opacity:0.84"/>
+	</radialGradient>
+	<path id="Oval-6-Copy-5_21_" class="st5" d="M32.5,65C50.4,65,65,50.5,65,32.5c0-1.3,0-1.9-0.1-2.6c-0.1-0.6-0.1-1.3-0.2-1.7
+		c-0.9-2.2-1.3,11-8.3,11c-17.8,0-11.3,13.5-24.7,5c-9.3-5.9-8.5,16.2-19.8,5.1S1.6,44,4.3,48.7C9.9,58.5,20.5,65,32.5,65z"/>
+</g>
+</svg>

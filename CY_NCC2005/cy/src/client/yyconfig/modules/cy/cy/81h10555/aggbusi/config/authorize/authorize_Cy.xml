@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10555,81H10555A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardtaskallocationHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypagetaskallocationHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypktaskallocationHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.savetaskallocationHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deletetaskallocationHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.committaskallocationHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommittaskallocationHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

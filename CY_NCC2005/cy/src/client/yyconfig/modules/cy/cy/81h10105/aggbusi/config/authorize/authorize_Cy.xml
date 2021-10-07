@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H10105,81H10105A</appcode>
+		<actions>
+			<!-- 学生期初数据 -->
+			<action>cy.cy.studentBeginSave</action>
+			<!-- 行政班级参照 -->
+			<action>cy.cy.ClassXzGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardstudentHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypagestudentHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkstudentHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.savestudentHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deletestudentHVO</action>
+			<!-- 根据学校主键查询学校额外信息 -->
+			<action>cy.cy.querySchooleExtraData</action>
+			<!-- 批量生成学生收款合同 -->
+			<action>cy.cy.batchTransfer</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitstudentHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitstudentHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

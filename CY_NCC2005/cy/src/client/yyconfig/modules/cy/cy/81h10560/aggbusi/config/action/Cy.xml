@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savetaskfeedbackHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletetaskfeedbackHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagetaskfeedbackHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypktaskfeedbackHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardtaskfeedbackHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.committaskfeedbackHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommittaskfeedbackHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.taskfeedbackhvo.action.TaskfeedbackHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

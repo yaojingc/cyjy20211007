@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10560,81H10560A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardtaskfeedbackHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypagetaskfeedbackHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypktaskfeedbackHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.savetaskfeedbackHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deletetaskfeedbackHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.committaskfeedbackHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommittaskfeedbackHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

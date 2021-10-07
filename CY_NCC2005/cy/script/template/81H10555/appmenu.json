@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "81",
+"menuitemname": "cy",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-12 08:46:16"
+},
+{
+"dr": "0",
+"menuitemcode": "81H1",
+"menuitemname": "cy",
+"parentcode": "81",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2021-08-12 08:46:16"
+},
+{
+"dr": "0",
+"menuitemcode": "81H105",
+"menuitemname": "cy",
+"parentcode": "81H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2021-08-12 08:46:16"
+},
+  {
+    "appcode": "81H10555",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "任务分配",
+    "menuitemcode": "81H10555",
+    "menuitemname": "任务分配",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-12 08:46:16"
+},
+{
+    "appcode": "81H10555A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "任务分配",
+    "menuitemcode": "81H10555A",
+    "menuitemname": "任务分配审批",
+    "parentcode": "81H105",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2021-08-12 08:46:16"
+}
+]

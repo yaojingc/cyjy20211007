@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H10115,81H10115A</appcode>
+		<actions>
+			<!-- 单据号随机 -->
+			<action>cy.cy.setBillCodeHVO</action>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardclasscyHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageclasscyHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkclasscyHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveclasscyHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteclasscyHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitclasscyHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitclasscyHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

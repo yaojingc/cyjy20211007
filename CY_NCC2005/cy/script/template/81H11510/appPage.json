@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H11510_LIST",
+    "pagename": "银行收款流水列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11510/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11510",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H11510_LIST,
+    "ts": "2021-07-23 13:56:40"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H11510_CARD",
+    "pagename": "银行收款流水卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11510/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11510",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H11510_CARD,
+    "ts": "2021-07-23 13:56:40"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H11510L_CARD",
+"pagename": "银行收款流水联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h11510/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H11510",
+"pk_apppage": "PK_PG03",
+"resid": 81H11510_CARD,
+"ts": "2021-07-23 13:56:40"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H11510A_CARD",
+"pagename": "银行收款流水审批",
+"pageurl": "/nccloud/resources/cy/cy/81h11510/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H11510A",
+"pk_apppage": "PK_PG04",
+"resid": 81H11510A_CARD,
+"ts": "2021-07-23 13:56:40"
+}
+]

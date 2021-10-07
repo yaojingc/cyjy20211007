@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10501,81H10501A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardschoolformHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypageschoolformHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkschoolformHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.saveschoolformHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deleteschoolformHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitschoolformHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitschoolformHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

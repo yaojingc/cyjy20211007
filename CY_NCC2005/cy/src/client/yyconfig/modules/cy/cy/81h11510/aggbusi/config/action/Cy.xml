@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+	<action>
+		<name>cy.cy.invoicebankcollflowHVO</name>
+		<label>已开票</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOInvoiceAssignAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.savebankcollflowHVO</name>
+		<label>保存</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOSaveAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.deletebankcollflowHVO</name>
+		<label>删除</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVODeleteAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypagebankcollflowHVO</name>
+		<label>列表查询</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOQueryListAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querypagebypkbankcollflowHVO</name>
+		<label>分页查询</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOQueryByPksAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.querycardbankcollflowHVO</name>
+		<label>卡片查询</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOQueryCardAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.commitbankcollflowHVO</name>
+		<label>提交单据</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOCommitAssignAction
+		</clazz>
+	</action>
+	<action>
+		<name>cy.cy.uncommitbankcollflowHVO</name>
+		<label>收回单据</label>
+		<clazz>nccloud.cy.cy.bankcollflowhvo.action.BankcollflowHVOUnCommitAssignAction
+		</clazz>
+	</action>
+
+</actions>

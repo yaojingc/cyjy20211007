@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H11017,81H11017A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardguideHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypageguideHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkguideHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.saveguideHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deleteguideHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitguideHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitguideHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

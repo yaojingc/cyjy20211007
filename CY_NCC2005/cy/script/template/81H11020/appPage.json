@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H11020_LIST",
+    "pagename": "试卷档案列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11020/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11020",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H11020_LIST,
+    "ts": "2021-08-12 11:25:21"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H11020_CARD",
+    "pagename": "试卷档案卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11020/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11020",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H11020_CARD,
+    "ts": "2021-08-12 11:25:21"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H11020L_CARD",
+"pagename": "试卷档案联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h11020/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H11020",
+"pk_apppage": "PK_PG03",
+"resid": 81H11020_CARD,
+"ts": "2021-08-12 11:25:21"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H11020A_CARD",
+"pagename": "试卷档案审批",
+"pageurl": "/nccloud/resources/cy/cy/81h11020/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H11020A",
+"pk_apppage": "PK_PG04",
+"resid": 81H11020A_CARD,
+"ts": "2021-08-12 11:25:21"
+}
+]

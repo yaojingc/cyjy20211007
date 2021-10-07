@@ -1,0 +1,8 @@
+{
+	"buildEntryPath": [
+		"./src/cy/*/*/*/index.js"
+	],
+	"proxy":"http://127.0.0.1:10088",
+	"buildWithoutHTML": [ "uapbd/refer", "uap/refer" ],
+	"devPort": 3006
+}

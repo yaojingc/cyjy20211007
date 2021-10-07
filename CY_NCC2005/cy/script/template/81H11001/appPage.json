@@ -1,0 +1,62 @@
+[
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "N",
+    "isdefault": "Y",
+    "modifier": "~",
+    "pagecode": "81H11001_LIST",
+    "pagename": "客服通道列表页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11001/main/index.html#/list",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11001",
+    "pk_apppage": "PK_PG01",
+    "resid": 81H11001_LIST,
+    "ts": "2021-06-23 11:46:18"
+  },
+  {
+    "creator": "~",
+    "dr": "0",
+    "iscarddefault": "Y",
+    "isdefault": "N",
+    "modifier": "~",
+    "pagecode": "81H11001_CARD",
+    "pagename": "客服通道卡片页面",
+    "pageurl": "/nccloud/resources/cy/cy/81h11001/main/index.html#/card",
+    "parent_id": "PK_APP",
+    "parentcode": "81H11001",
+    "pk_apppage": "PK_PG02",
+    "resid": 81H11001_CARD,
+    "ts": "2021-06-23 11:46:18"
+  },
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "Y",
+"isdefault": "N",
+"modifier": "~",
+"pagecode": "81H11001L_CARD",
+"pagename": "客服通道联查卡片页",
+"pageurl": "/nccloud/resources/cy/cy/81h11001/main/index.html#/card",
+"parent_id": "PK_APP",
+"parentcode": "81H11001",
+"pk_apppage": "PK_PG03",
+"resid": 81H11001_CARD,
+"ts": "2021-06-23 11:46:18"
+},
+{
+"creator": "~",
+"dr": "0",
+"iscarddefault": "N",
+"isdefault": "Y",
+"modifier": "~",
+"pagecode": "81H11001A_CARD",
+"pagename": "客服通道审批",
+"pageurl": "/nccloud/resources/cy/cy/81h11001/main/index.html#/card",
+"parent_id": "PK_APP1",
+"parentcode": "81H11001A",
+"pk_apppage": "PK_PG04",
+"resid": 81H11001A_CARD,
+"ts": "2021-06-23 11:46:18"
+}
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module name="cy">
+  <public>
+        <component remote="true" singleton="true"  tx="CMT">
+          <interface>nccloud.itf.cy.cy.ICyCommonSqlUtil</interface>
+          <implementation>nccloud.impl.cy.cy.CyCommonSqlUtilImpl</implementation>
+        </component>
+        
+        <component remote="true" singleton="true"  tx="CMT">
+          <interface>nc.utils.crm.itf.ICrmService</interface>
+          <implementation>nccloud.impl.cy.crm.CrmServiceImpl</implementation>
+        </component>
+        
+        <component remote="true" singleton="true"  tx="CMT">
+          <interface>nccloud.itf.cy.cy.IRightControlService</interface>
+          <implementation>nccloud.impl.cy.cy.RightControlServiceImpl</implementation>
+        </component>
+  </public> 
+</module> 

@@ -1,0 +1,13 @@
+{
+    "base-table-0001": "暂无数据",
+    "table_colseting_width":"列宽设置",
+    "table_colseting_table":"列表设置",
+    "table_colseting_savewidth":"保存列宽",
+    "table_colseting_reset":"重置",
+    "table_colseting_ok":"确定",
+    "table_colseting_cancel":"取消",
+    "table_colseting_waitadd":"待添加",
+    "table_colseting_readyadd":"已添加",
+    "table_colseting_tip01":"列宽保存成功",
+    "table_colseting_tip02":"列设置保存成功"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H11030,81H11030A</appcode>
+		<actions>
+			<!-- 课表上课学生查询 -->
+			<action>cy.cy.querystuclatree</action>
+			<!-- 课表上课学生保存 -->
+			<action>cy.cy.savestuclatree</action>
+
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+
+			<!-- 生成学生上课情况 -->
+			<action>cy.cy.clasituation</action>
+			<!-- 课表导入 -->
+			<action>cy.cy.importkb</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardclsscheduleHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageclsscheduleHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkclsscheduleHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveclsscheduleHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteclsscheduleHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitclsscheduleHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitclsscheduleHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

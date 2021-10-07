@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>81H10550,81H10550A</appcode>
+        <actions>
+        	<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+            <!-- 卡片查询 -->
+            <action>cy.cy.querycardworkplanHVO</action>
+            <!-- 列表查询 -->
+            <action>cy.cy.querypageworkplanHVO</action>
+            <!-- pk查询 -->
+            <action>cy.cy.querypagebypkworkplanHVO</action>
+            <!-- 保存 -->
+            <action>cy.cy.saveworkplanHVO</action>
+            <!-- 删除 -->
+            <action>cy.cy.deleteworkplanHVO</action>
+            <!-- 提交 -->
+            <action>cy.cy.commitworkplanHVO</action>
+            <!-- 撤回 -->
+            <action>cy.cy.uncommitworkplanHVO</action>
+        </actions>
+    </authorize>
+</authorizes>

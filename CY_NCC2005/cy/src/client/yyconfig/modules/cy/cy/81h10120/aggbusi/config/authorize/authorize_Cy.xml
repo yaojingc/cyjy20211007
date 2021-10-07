@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H10120,81H10120A</appcode>
+		<actions>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardclassxzHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypageclassxzHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkclassxzHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.saveclassxzHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deleteclassxzHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitclassxzHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitclassxzHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

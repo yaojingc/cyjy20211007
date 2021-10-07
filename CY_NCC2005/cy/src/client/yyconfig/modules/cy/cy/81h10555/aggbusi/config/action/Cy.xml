@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savetaskallocationHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletetaskallocationHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagetaskallocationHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypktaskallocationHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardtaskallocationHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.committaskallocationHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommittaskallocationHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.taskallocationhvo.action.TaskallocationHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

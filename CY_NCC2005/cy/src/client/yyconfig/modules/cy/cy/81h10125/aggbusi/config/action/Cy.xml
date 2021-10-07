@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savesalesmanfileHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletesalesmanfileHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagesalesmanfileHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypksalesmanfileHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardsalesmanfileHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.commitsalesmanfileHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommitsalesmanfileHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.salesmanfilehvo.action.SalesmanfileHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

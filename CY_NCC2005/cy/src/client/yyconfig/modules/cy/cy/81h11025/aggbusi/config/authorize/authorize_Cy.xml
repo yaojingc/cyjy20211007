@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+	<authorize>
+		<!-- 应用编码 -->
+		<appcode>81H11025,81H11025A</appcode>
+		<actions>
+			<!-- 学校参照 -->
+			<action>cy.cy.SchoolGridReferQuery</action>
+			<!-- 班级参照 -->
+			<action>cy.cy.ClassCyGridReferQuery</action>
+			<!-- 学生参照 -->
+			<action>cy.cy.StudentGridReferQuery</action>
+			<!-- 试卷参照 -->
+			<action>cy.cy.TestpaperfileGridReferQuery</action>
+			<!-- 根据班级主键查询所有该班级下的学生 -->
+			<action>cy.cy.queryStuOfClasscy</action>
+			<!-- 卡片查询 -->
+			<action>cy.cy.querycardstumarkdataHVO</action>
+			<!-- 列表查询 -->
+			<action>cy.cy.querypagestumarkdataHVO</action>
+			<!-- pk查询 -->
+			<action>cy.cy.querypagebypkstumarkdataHVO</action>
+			<!-- 保存 -->
+			<action>cy.cy.savestumarkdataHVO</action>
+			<!-- 删除 -->
+			<action>cy.cy.deletestumarkdataHVO</action>
+			<!-- 提交 -->
+			<action>cy.cy.commitstumarkdataHVO</action>
+			<!-- 撤回 -->
+			<action>cy.cy.uncommitstumarkdataHVO</action>
+		</actions>
+	</authorize>
+</authorizes>

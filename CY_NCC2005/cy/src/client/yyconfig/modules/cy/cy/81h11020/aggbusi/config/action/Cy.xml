@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>cy.cy.savetestpaperfileHVO</name>
+        <label>保存</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOSaveAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.deletetestpaperfileHVO</name>
+        <label>删除</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVODeleteAction</clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagetestpaperfileHVO</name>
+        <label>列表查询</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querypagebypktestpaperfileHVO</name>
+        <label>分页查询</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.querycardtestpaperfileHVO</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.committestpaperfileHVO</name>
+        <label>提交单据</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>cy.cy.uncommittestpaperfileHVO</name>
+        <label>收回单据</label>
+        <clazz>nccloud.cy.cy.testpaperfilehvo.action.TestpaperfileHVOUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>
