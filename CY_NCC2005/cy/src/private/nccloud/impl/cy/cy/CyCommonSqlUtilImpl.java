@@ -371,7 +371,8 @@ public class CyCommonSqlUtilImpl implements ICyCommonSqlUtil {
 		builder.reset();
 		builder.append(" SELECT bank.code, bank.name ");
 		builder.append(" FROM bd_banktype bank ");
-		builder.append(" WHERE bank.dr = 0 ");
+		builder.append(" WHERE ");
+		builder.append("dr",0);
 		// 查询条件存在则拼接上
 		if(CyCommonUtils.isNotEmpty(field) && CyCommonUtils.isNotEmpty(value)) {
 			builder.append("AND");
